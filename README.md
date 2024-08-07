@@ -1,4 +1,4 @@
-#CS2106Lab1
+# CS2106Lab1
 
 This course assumes that you have basic knowledge of C programming, and this lab will build
 on those basics to introduce you to some intermediate and advanced topics, including
