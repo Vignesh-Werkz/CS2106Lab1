@@ -1,0 +1,7 @@
+*.vsidx
+*.db
+*.ipch
+*.opendb
+*.db-wal
+*.db-shm
+*.sqlite
