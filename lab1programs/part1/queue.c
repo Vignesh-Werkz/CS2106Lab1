@@ -59,13 +59,13 @@ double reduce() {
 }
 
 double flex_reduce(void (*clear)(double *), double (*op)(double, double)) {
-    int ndx = _rear;
+	int ndx = _rear;
 
-    clear(&_res);
-    while(ndx != _front) {
-        _res = op(_queue[ndx], _res);
-        ndx = (ndx + 1) % MAX_Q_SIZE;
-    }
-    return _res;
+	clear(&_res);
+	while(ndx != _front) {
+		_res = op(_queue[ndx], _res);
+		ndx = (ndx + 1) % MAX_Q_SIZE;
+	}
+	return _res;
 }
 
