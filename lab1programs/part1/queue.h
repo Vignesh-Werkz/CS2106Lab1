@@ -4,4 +4,5 @@
 #define MAX_Q_SIZE	10
 
 // declare prototypes below
-
+void enq(double);
+double deq();
